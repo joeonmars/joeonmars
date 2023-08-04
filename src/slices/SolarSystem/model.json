@@ -1,0 +1,32 @@
+{
+  "id": "solar_system",
+  "type": "SharedSlice",
+  "name": "SolarSystem",
+  "description": "SolarSystem",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "display_name": {
+          "type": "Text",
+          "config": { "label": "Display Name", "placeholder": "" }
+        }
+      },
+      "items": {
+        "star": {
+          "type": "Link",
+          "config": {
+            "label": "Star",
+            "select": "document",
+            "customtypes": ["project"]
+          }
+        }
+      }
+    }
+  ]
+}
